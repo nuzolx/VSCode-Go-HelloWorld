@@ -1,0 +1,20 @@
+{
+	"version": "0.1.0",
+	"command": "go",
+	"isShellCommand": true,
+	
+	"tasks": [
+		{
+			"taskName": "build",
+			 "isBuildCommand": true
+		},
+		{
+			"taskName": "run",
+			"args": [
+				"run","main.go"
+			],
+			"isTestCommand": true
+		}
+		
+	]
+}
